@@ -3,7 +3,7 @@ export const initialState = {
     playlists: [],
     playing: false,
     item:null,
-    // token: "BQCdnv11fC8JtaxcknGep1nHBmSkTyKi4WDsg7kaPp2lpU-bv7JO038N_p71sKmQofJDBNCZYCARZhcRnV-phXx50tgQhWigNEZeiPiqx59DYxzrvINeF-UywkyZzanMUv7xGpgubfe6L8sDgVPs7Ai90IAbjWRZ5Bq4",
+     token: "BQCdnv11fC8JtaxcknGep1nHBmSkTyKi4WDsg7kaPp2lpU-bv7JO038N_p71sKmQofJDBNCZYCARZhcRnV-phXx50tgQhWigNEZeiPiqx59DYxzrvINeF-UywkyZzanMUv7xGpgubfe6L8sDgVPs7Ai90IAbjWRZ5Bq4",
 };
 const reducer = (state,action) => {
     console.log(action);
